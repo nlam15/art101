@@ -1,0 +1,14 @@
+h1 {
+    color:yellowgreen
+    
+}
+
+p {
+    text-indent: 50px;
+    margin-left: 30px;
+}
+
+#content {
+    border: dashed 5px orange;
+    background-color: beige
+}
