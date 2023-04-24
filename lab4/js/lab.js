@@ -1,8 +1,15 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Rock Paper Scissors
+// An implementation of the game
+// Nathan Lam <ndlam@ucsc.edu>
+// April 24, 2023
 
-// Constants
+// Print object selection (rock, paper, and scissors)
+    // Print R, P, or S
+// Accept user selection
+// Validate user move
+// Choose compiter move
+//Interpret each user's object
+// Determine winner or tie
 
 // Functions
 
