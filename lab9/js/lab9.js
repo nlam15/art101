@@ -13,7 +13,7 @@ new1El.innerHTML = "This is my new Element 1. The font for this page is differen
 
 // change html attribute of new2El to say something else
 var new2El = document.createElement("p");
-new2El.innerHTML = "This is my new Element 2. The text your are reading this on is pink with a dashed border.";
+new2El.innerHTML = "This is my new Element 2. The text you are reading this on is pink with a dashed border.";
 
 // append both elements to output <div>
 outputEl.appendChild(new1El);
