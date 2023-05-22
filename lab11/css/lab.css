@@ -18,3 +18,8 @@
     font-weight: bold;
     font-size: 60px;
   }
+
+  #output {
+    border: dashed 2px slategray;
+    background-color: pink;
+  }
