@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 11 - Libararies and jQuery</title>
+	<title>Lab 12 - Conditionals</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="js/lab11.js" defer></script>
+	<script src="js/lab12.js" defer></script>
 </head>
 <body>
-	<div id="output">
 	<main id="content">
 		<section>
-			<h1>Lab 11 - Libraries and jQuery</h1>
-			<div id="output" class="changed">
-			<div class="minor-section">	
-				<div id="challenge" class="sectionbox special">
+			<h1>Lab 12 - Conditionals</h1>
+			<div class="minor-section" id="challenge">	
 					<h2>Challenge</h2>
-					<p>Working with your partner... </p>
+					<p>Working with your partner, create a function that depends on conditionals.</p>
 			</div>
 			</div>
-			<div class="minor-section">	
-			<div id="problem" class="sectionbox special">
+			<div class="minor-section" id="problems">	
 					<h2>Problems</h2>
-					<p>I had some difficulty connecting the JavaScript to my button due to some mistakes in my code such as small formatting mistakes...</p>
+					<p>I had some difficulty having my button be functional. When I finished the JavaScript and tried to test my button for sorting, it would not take the input and sort it, nothing would show up after pressing the button. After tinkering around with my index and re-writing the code for the results section, I was able to get the button to work. I am not sure what exactly was causing the button to not work, but I suspect there was a small error in the code or formatting. Even though I got the button to sort properly, when the input would get sorted, it would be printed at the top of the index, removing the lab's title, challenge section and results. I looked over the top of my html code and found a couple formatting errors. I removed them one at a time and refreshed my index locally and slowly saw the issues go away.  </p>
 			</div>
 			</div>
-			<div class="minor-section">
-				<div id="results" class="sectionbox special">
+			<div class="minor-section" id="results">
 					<h2>Results</h2>
-					<p>The index page you are reading this on...</p>
+					<label>Please enter your name for sorting:</label>
+					<input type="text" id="input">
+					<button id="button">Submit.</button>
+					<div id="output">
+					</div>
+				<div>
 			<div class ="minor section">
 			</div>
 		</div>
-		<h1>Screenshots</h1>
-		<img id="screenshot-2" src="Screenshot 2023-05-15 at 3.45.59 PM.png" />
-				<img id="screenshot-1" src="Screenshot 2023-05-17 at 2.11.50 PM.png" />
+		<h2>Screenshots</h2>
+		<img id="screenshot-2" src="Screenshot 2023-05-22 at 1.08.48 PM.png"/>
+		<img id="screenshot-1" src="Screenshot 2023-05-22 at 1.09.37 PM.png"/>
 		</section>
-		<nav id="js/lab11.js">
+		<nav id="js/lab12.js">
 		</nav>
 	</main>
 </body>
