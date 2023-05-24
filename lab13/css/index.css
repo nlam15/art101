@@ -1,0 +1,47 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+#content {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+  }
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: black
+  
+}
+h2 {
+  color: black
+}
+.minor-section {
+    border: solid 1px white;
+    background-color: powderblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+p {
+    color: black
+}
+body {
+    background-color: skyblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+#screenshot-1 {
+  width: 800px
+}
+
+#screenshot-2 {
+  width: 800px
+}
+#screenshot-3 {
+  width:800px
+}
+#output {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  columns: 3;
+}
+
