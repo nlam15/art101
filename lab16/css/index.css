@@ -1,0 +1,46 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+#content {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: powderblue;
+  }
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: black
+  
+}
+h2 {
+  font-family: inherit;
+  color: black
+}
+.minor-section {
+    border: solid 3px; color: palegoldenrod;
+    background-color: powderblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+p {
+    color: black
+}
+body {
+    background-color: powderblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+#screenshot-1 {
+  width: 800px
+}
+
+#screenshot-2 {
+  width: 800px
+}
+#screenshot-3 {
+  width:800px
+}
+h3 {
+  color: black;
+  font-size: x-large;
+}
